@@ -1,14 +1,12 @@
-ExpNo 3 : Implement Breadth First Search Traversal of a Graph
-Name:
-Register Number:
-Aim:
-To Implement Breadth First Search Traversal of a Graph using Python 3.
+# ExpNo 3 : Implement Breadth First Search Traversal of a Graph
 
-Theory:
-Breadth-First Traversal (or Search) for a graph is like the Breadth-First Traversal of a tree. The only catch here is that, unlike trees, graphs may contain cycles so that we may come to the same node again. To avoid processing a node more than once, we divide the vertices into two categories:
+## Name: SHUBNUM FATHIMA AB
+## Register Number: 212225240147
 
-Visited
-Not Visited
+### Aim: To Implement Breadth First Search Traversal of a Graph using Python 3.
+
+### Theory:
+Breadth-First Traversal (or Search) for a graph is like the Breadth-First Traversal of a tree. The only catch here is that, unlike trees, graphs may contain cycles so that we may come to the same node again. To avoid processing a node more than once, we divide the vertices into two categories: Visited, Not Visited.
 A Boolean visited array is used to mark the visited vertices. For simplicity, it is assumed that all vertices are reachable from the starting vertex. BFS uses a queue data structure for traversal.
 
 How does BFS work?
@@ -46,7 +44,7 @@ Steps 7: Remove node 4 from the front of queue and visit the unvisited neighbour
 
 Remove node 4 from the front of queue and visit the unvisited neighbours and push them into queue. Now, Queue becomes empty, So, terminate these process of iteration.
 
-Algorithm:
+### Algorithm:
 Construct a Graph with Nodes and Edges
 Breadth First Uses Queue and iterates through the Queue for Traversal.
 Insert a Start Node into the Queue.
@@ -54,7 +52,7 @@ Find its Successors Or neighbors and Check whether the node is visited or not.
 If Not Visited, add it to the Queue. Else Continue.
 Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.
 
-Sample Input
+### Sample Input
 5 6
 0 1
 0 2
@@ -62,11 +60,11 @@ Sample Input
 1 3
 2 4
 3 4
-Sample Output
+### Sample Output
 ['0', '1', '2', '3', '4']
 
-Output:
+### Output:
 <img width="272" height="201" alt="image" src="https://github.com/user-attachments/assets/50238949-cb3f-498e-b884-63874c9c71f0" />
 
-Result:
+### Result:
 Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.
